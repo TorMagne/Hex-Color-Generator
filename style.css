@@ -87,3 +87,27 @@ button {
   align-items: center;
   font-size: 5rem;
 }
+
+@media screen and (max-width: 600px) {
+  .hex-generator {
+    height: 50vh;
+    width: 80vw;
+  }
+
+  button {
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .clipboard {
+    height: 50px;
+    font-size: 2rem;
+  }
+}
