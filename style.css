@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hex-generator {
+  height: 30vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 2rem;
+}
+
+button {
+  padding: 1rem 2rem;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.generate-new {
+  background-color: #e91e63;
+}
+
+.copy-me {
+  margin-top: 2rem;
+  background-color: #03a9f4;
+}
+
+.hex-generator p {
+  margin-top: 2rem;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.model {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.model-content {
+  background-color: #fff;
+  padding: 20px;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 0px 0px 5px 5px;
+  transition: ease-in-out 0.3s;
+}
+
+.hide-model {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.show-model {
+  opacity: 1;
+  visibility: visible;
+}
+
+.clipboard {
+  color: black;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+}
