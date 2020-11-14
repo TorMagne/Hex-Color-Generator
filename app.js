@@ -29,18 +29,18 @@ function copyHexColor() {
 copyMe.addEventListener('click', copyHexColor);
 
 // open model when copy text
-function clipBoardOpen() {
+const clipBoardOpen = () => {
   if (modelContent.classList.contains('hide-model')) {
     modelContent.classList.remove('hide-model');
     modelContent.classList.add('show-model');
     audio.play();
   }
-}
+};
 
 // close model after 2 seconds
-function clipBoardClose() {
+const clipBoardClose = () => {
   if (modelContent.classList.contains('show-model')) {
     modelContent.classList.remove('show-model');
     modelContent.classList.add('hide-model');
   }
-}
+};
