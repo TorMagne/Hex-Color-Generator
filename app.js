@@ -4,7 +4,7 @@ const copyMe = document.querySelector('.copy-me');
 const modelContent = document.querySelector('.model-content');
 const audio = new Audio('pling.mp3');
 
-// random background color
+// random background colors
 function setBackgroundColor() {
   const randomHex = Math.floor(Math.random() * 16777215).toString(16);
   document.body.style.backgroundColor = '#' + randomHex;
